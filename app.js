@@ -15,5 +15,13 @@ index.addDoc({
   body: 'hello! how? low.'
 });
 
-const r = index.search('curry');
-console.log(r);
+//単語一致
+console.log(index.search('curry'));
+
+//部分検索一致しない
+console.log(index.search('curr'));
+
+//部分検索一致
+console.log(index.search('h', {
+  expand: true
+}));
