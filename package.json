@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "elasticlunr": "weixsong/elasticlunr.js"
+  }
+}
